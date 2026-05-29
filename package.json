@@ -1,0 +1,17 @@
+{
+  "name": "azure-demo-app",
+  "version": "1.0.0",
+  "description": "Minimal Node.js + Express AI chat app for Azure App Service.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^4.77.0"
+  }
+}
